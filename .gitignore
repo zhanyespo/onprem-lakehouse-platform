@@ -1,0 +1,55 @@
+.env
+.env.*
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.env
+.venv/
+pyvenv.cfg
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Docker
+docker-compose.override.yml
+.env.local
+
+# macOS
+.DS_Store
+
+# Test / cache
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Logs
+*.log
+logs/
+
+# Data (local sample/test datasets)
+/data/
+
+# Terraform
+.terraform/
+
+# Ignore local secrets
+secrets.yml
+
+# Node
+node_modules/
